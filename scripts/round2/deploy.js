@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat");
 
-// Gov: 0xA07fccb602C3826f27A4153CA8724F56d83A786B
-// Tob: 0xfCAb6c4B96de9c76C7a11725BA081292677a28b4
+// Gov: 0xA77B27E281C0309D8CDC701A243509598Ec2e28C
+// Tob: 0x01591f45209C8a2e091337dE8bB09b8E4e90D375
 
 async function main() {
   const [owner] = await ethers.getSigners();

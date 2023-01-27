@@ -5,10 +5,10 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
-contract MyToken is ERC20, ERC20Permit, ERC20Votes {
+contract TobyGovy is ERC20, ERC20Permit, ERC20Votes {
     address governor;
 
-    constructor(address _governor) ERC20("MyToken", "MTK") ERC20Permit("MyToken") {
+    constructor(address _governor) ERC20("TobyGovy", "TGY") ERC20Permit("TobyGovy") {
         governor = _governor;
         _mint(msg.sender, 10000e18);
     }
